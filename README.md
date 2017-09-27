@@ -1,3 +1,5 @@
+Fork of https://github.com/kartotherian/demultiplexer
+
 [![Build Status](https://travis-ci.org/kartotherian/demultiplexer.svg?branch=master)](https://travis-ci.org/kartotherian/demultiplexer)
 
 # @kartotherian/demultiplexer
