@@ -69,6 +69,7 @@ function Demultiplexer(uri, callback) {
 }
 
 Demultiplexer.prototype._getHandler = function(z) {
+    let self = this;
     if (z < self.sources[0].from || z >= self.sources[self.sources.length - 1].before) {
         Err.throwNoTile();
     }
